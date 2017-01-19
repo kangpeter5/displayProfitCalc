@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#unbold{
+	font-weight: 300;
+}
+body{
+	font-family: "Arial, Helvetica", sans-serif;
+	background: url("/static/img/display.png") no-repeat;
+	background-size: 100% auto;
+}
+
+/* Top Only */
+nav{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 20px;
+}
+nav img{
+	width: 31%;
+}
+nav #title{
+	display: inline-block;
+	font-size: 118%;
+	font-weight: bold;
+	width: 64%;
+	margin-left: 10px;
+	margin-top: 7px;
+	text-align: left;
+	vertical-align: top;
+	color: #eeeeee;
+}
+
+/* main */
+.container{
+
+}
+.container h1{
+	font-size: 160%;
+	font-weight: bolder;
+}
+.hr{
+	width: 100%;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+form{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.form-group{
+	vertical-align: middle;
+}
+.form-group .control-label{
+	position: relative;
+	top: 9px;
+	text-align: left;
+	padding-top: 0;
+	padding-right: 0;
+	font-size: 104%;
+}
+.form-group input, .answer-to-input{
+	font-size: 170%;
+	height: 40px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* 16 ounce */
+#sixteen-oz h1{
+	color: #0A0662;
+}
+#sixteen-oz .hr{
+	color: #0A0662;
+	background: #0A0662;
+}
+#sixteen-oz .form-group .answer-to-input{
+	color: #eeeeee;
+	background: #0A0662;
+}
+
+/* 20 ounce */
+#twenty-oz h1{
+	color: #D00035;
+}
+#twenty-oz .hr{
+	color: #D00035;
+	background: #D00035;
+}
+#twenty-oz .form-group .answer-to-input{
+	color: #eeeeee;
+	background: #D00035;
+}
+
+/* Total Cost and Profit */
+#total-cp h1{
+	color: #666666;
+}
+#total-cp .hr{
+	color: #666666;
+	background: #666666;
+}
+#total-cp .form-group .answer-to-input{
+	color: #eeeeee;
+	background: #666666;
+}
+
+/* ------Responsive----- */
+/* iPhone 6 & 6s */
+@media only screen and (min-width: 375px){
+	nav #title{
+		font-size: 141%;
+	}
+	.container h1{
+		font-size: 200%;
+	}
+	.form-group .control-label{
+		font-size: 123%;
+	}
+	.form-group input, .answer-to-input{
+		height: 50px;
+	}
+}
+
+/* iPhone 6 Plus & 6s Plus */
+@media only screen and (min-width: 413px){
+	nav #title{
+		font-size: 158%;
+	}
+	.container h1{
+		font-size: 215%;
+	}
+	.form-group .control-label {
+	    font-size: 137%;
+	}
+	.form-group input, .answer-to-input{
+		height: 55px;
+	}
+}
+
+/* tablet */
+@media only screen and (min-width: 600px){
+	nav #title {
+	    font-size: 300%;
+	    margin-top: 2%;
+	}
+	.container h1{
+		font-size: 51px;
+	}
+	.form-group .control-label {
+		position: relative;
+		top: 20px;
+	    font-size: 33px;
+	}
+	.form-group input, .answer-to-input{
+		font-size: 50px;
+		height: 85px;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+	}
+}
+/* iPad */
+@media only screen and (min-width: 767px){
+	nav #title {
+	    font-size: 300%;
+	    margin-top: 2%;
+	}
+	.container h1{
+		font-size: 51px;
+	}
+	.form-group .control-label {
+		position: relative;
+		top: 20px;
+	    font-size: 33px;
+	}
+	.form-group input, .answer-to-input{
+		font-size: 50px;
+		height: 85px;
+		font-weight: bold;
+		text-align: center;
+		vertical-align: middle;
+	}
+}
+/* END content-space & content-block */
