@@ -7,7 +7,6 @@ var express = require('express'),
 app.use(express.static('client'));
 app.use(bodyParser.json());
 
-//  required
 // require('./server/config/mongoose.js');
 
 //listen
