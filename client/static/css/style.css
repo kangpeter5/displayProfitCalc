@@ -167,10 +167,11 @@ form{
 	}
 }
 /* iPad */
-@media only screen and (min-width: 767px){
+@media only screen and (min-width: 768px){
 	nav #title {
 	    font-size: 300%;
 	    margin-top: 2%;
+	    margin-left: 2%;
 	}
 	.container h1{
 		font-size: 51px;
@@ -187,5 +188,12 @@ form{
 		text-align: center;
 		vertical-align: middle;
 	}
+}
+/* iPad Pro */
+@media only screen and (min-width: 1024px){
+	nav #title {
+	    font-size: 56px;
+	}
+
 }
 /* END content-space & content-block */

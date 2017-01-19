@@ -8,7 +8,7 @@ app.use(express.static('client'));
 app.use(bodyParser.json());
 
 //  required
-require('./server/config/mongoose.js');
+// require('./server/config/mongoose.js');
 
 //listen
 app.listen(8000, function(){

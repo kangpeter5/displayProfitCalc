@@ -61,7 +61,7 @@ function calculatorController($scope){
 		}
 		return profitTwenty;
 	}
-	$scope.profitDisplay = function(casesSixteen, casesTwenty,profitSixteen, profitTwenty){
+	$scope.profitDisplay = function(casesSixteen, casesTwenty, profitSixteen, profitTwenty){
 		if (isNaN(profitDisplay)) {
 			profitDisplay = 0;
 		}else{
